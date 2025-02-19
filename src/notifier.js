@@ -1,6 +1,6 @@
 import express from 'express'
 import 'dotenv/config';
-import { integration_config } from './integration_config.js';
+import { integration_config } from './src/integration_config.js';
 import { fetchAndSendRates } from '../HNG_prep/exchange-rate-notifier/index.js';
 import { fetchExchangeRates } from '../HNG_prep/exchange-rate-notifier/index.js';
 
