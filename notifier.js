@@ -1,11 +1,10 @@
 import express from 'express'
 import 'dotenv/config';
 import { integration_config } from './integration_config.js';
-import { fetchAndSendRates } from '../index.js';
-import { fetchExchangeRates } from '../index.js';
+import { fetchAndSendRates } from '../HNG_prep/exchange-rate-notifier/index.js';
+import { fetchExchangeRates } from '../HNG_prep/exchange-rate-notifier/index.js';
 
-import bodyParser from 'body-parser';
-
+// import bodyParser from 'body-parser';
 const app = express();
 const port = 3000;
 
