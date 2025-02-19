@@ -63,10 +63,7 @@ export const integration_config = {
         options: ["Super-Admin", "Admin", "Manager", "Developer"],
       },
     ],
-    //   "tick_url": "https://s4jblf42-3000.uks1.devtunnels.ms/",
-    //   "target_url": "https://s4jblf42-3000.uks1.devtunnels.ms/notifier-hook"
-    //   "target_url": "https://ping.telex.im/v1/webhooks/01951d09-6c39-77a0-990c-7da52f8ad219/notifier-hook"
-    tick_url: "https://s4jblf42-3000.uks1.devtunnels.ms/tick",
+    tick_url: "https://ping.telex.im/v1/webhooks/019515ea-a238-7f4c-aae2-40f52f57a22b",
     target_url: "https://s4jblf42-3000.uks1.devtunnels.ms/notifier-hook/"
   },
 };
