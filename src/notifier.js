@@ -101,7 +101,7 @@ const sendMail = async (rates) => {
     }
 
     // Schedule the task to run intervally
-    cron.schedule('*/50 * * * *', () => {
+    cron.schedule('*/10 * * * *', () => {
         console.log('Fetching exchange rates ...');
         fetchAndSendRates();
     })

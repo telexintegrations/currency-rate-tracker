@@ -50,7 +50,6 @@ app.get('/exchange-rate', async (req, res) => {
 
 
 app.post('/currency-notifier', (req, res) => {
-    console.log("Webhook Body:", req.body);
     console.log("Webhook hit!");
     console.log("Webhook Body:", req.body.message);
     res.status(200).send("Webhook received successfully");

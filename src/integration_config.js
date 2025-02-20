@@ -8,7 +8,7 @@ export const integration_config = {
       app_description:
         "Fetches the current exchange rate for Naira to USD, EUR, and GBP at 60-minutes intervals and sends real-time notifications.",
       app_logo:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwI_vCma_nQpVcVYV6D0WVxHxhku-0HGwzAw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVifbDtfjKZAmuhBtssfV1HgOkwybEmIL9OQ&s",
       app_name: "currency rate tracker.",
       app_url: "https://currency-rate-tracker.onrender.com",
       background_color: "#HEXCODE",
