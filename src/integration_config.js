@@ -63,7 +63,8 @@ export const integration_config = {
         options: ["Super-Admin", "Admin", "Manager", "Developer"],
       },
     ],
-    target_url: "https://ping.telex.im/v1/webhooks/019515ea-a238-7f4c-aae2-40f52f57a22b",
+    // target_url: "https://ping.telex.im/v1/webhooks/019515ea-a238-7f4c-aae2-40f52f57a22b",
+    target_url: "https://ping.telex.im/v1/webhooks/01951d09-6c39-77a0-990c-7da52f8ad219",
     tick_url: "https://currency-rate-tracker.onrender.com/currency-notifier"
   },
 };
