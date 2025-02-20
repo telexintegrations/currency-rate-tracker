@@ -15,7 +15,7 @@ export const integration_config = {
     },
     integration_category: "Monitoring & Logging",
     integration_type: "interval",
-    is_active: false,
+    is_active: true,
     key_features: ["Gets current naira exchange rate.", "Notifies user."],
     permissions: {
       monitoring_user: {
