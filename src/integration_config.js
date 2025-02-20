@@ -6,16 +6,16 @@ export const integration_config = {
     },
     descriptions: {
       app_description:
-        "Fetches the current exchange rate for Naira to USD, EUR, and GBP from Exchange API at 60-minutes intervals and sends real-time notification to users",
+        "Fetches the current exchange rate for Naira to USD, EUR, and GBP at 60-minutes intervals and sends real-time notifications.",
       app_logo:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwI_vCma_nQpVcVYV6D0WVxHxhku-0HGwzAw&s",
       app_name: "currency rate tracker.",
-      app_url: "https://exchange-rate-tracker.com",
+      app_url: "https://currency-rate-tracker.onrender.com",
       background_color: "#HEXCODE",
     },
     integration_category: "Monitoring & Logging",
     integration_type: "interval",
-    is_active: true,
+    is_active: false,
     key_features: ["Gets current naira exchange rate.", "Notifies user."],
     permissions: {
       monitoring_user: {
@@ -63,7 +63,7 @@ export const integration_config = {
         options: ["Super-Admin", "Admin", "Manager", "Developer"],
       },
     ],
-    tick_url: "https://ping.telex.im/v1/webhooks/019515ea-a238-7f4c-aae2-40f52f57a22b",
-    target_url: "https://s4jblf42-3000.uks1.devtunnels.ms/notifier-hook/"
+    target_url: "https://ping.telex.im/v1/webhooks/019515ea-a238-7f4c-aae2-40f52f57a22b",
+    tick_url: "https://currency-rate-tracker.onrender.com/currency-notifier"
   },
 };

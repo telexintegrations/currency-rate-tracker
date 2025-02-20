@@ -2,6 +2,7 @@ import express from 'express'
 import 'dotenv/config';
 import { integration_config } from './src/integration_config.js';
 import { fetchAndSendRates, fetchExchangeRates } from './src/notifier.js';
+import cors from 'cors';
 
 
 // import bodyParser from 'body-parser';
@@ -10,6 +11,7 @@ const port = process.env.PORT || 3000;
 
 
 app.use(express.json());
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send("Welcome to exchange notifier");
@@ -47,7 +49,9 @@ app.get('/exchange-rate', async (req, res) => {
 
 
 
-app.post('/notifier-hook', (req, res) => {
+app.post('/currency-notifier', (req, res) => {
+    console.log("Webhook Body:", req.body);
+    console.log("Webhook hit!");
     console.log("Webhook Body:", req.body.message);
     res.status(200).send("Webhook received successfully");
 })

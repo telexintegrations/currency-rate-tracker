@@ -109,5 +109,4 @@ const sendMail = async (rates) => {
 console.log('Exchange rate notifier started. Waiting for the next run...');
 
 export { fetchAndSendRates,fetchExchangeRates };
-// export {  };
 
